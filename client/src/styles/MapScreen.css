@@ -1,0 +1,37 @@
+.wrapper {
+    height: 100%;
+    padding: 0 100px 0 100px;
+    display: grid;
+    grid-template-columns: 60% 2% 38%;
+    grid-template-rows: 50px auto 50px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1%;
+}
+
+.card .card-header {
+    height: 50px;
+    font-size: 2em;
+}
+
+.card .card-body {
+    height: calc(100% - 50px);
+}
+
+.map {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.options {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.leaflet-container {
+    margin: 30px;
+    height: calc(100% - 60px);
+    border-radius: 1%;
+}
